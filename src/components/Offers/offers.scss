@@ -1,0 +1,105 @@
+.offers{
+    .secContainer{
+        .mainContent{
+            gap: 1rem;
+
+            .singleOffer{
+                border-radius: 1rem;
+                overflow: hidden;
+                padding: .5rem;
+                box-shadow: 0 2px 8px 2px rgba(178,178,178,0.189);
+
+                .icon{
+                    font-size: 20px;
+                    color: black;
+                }
+
+                small{
+                    font-weight: 500;
+                    color: black;
+                }
+
+                .destImage{
+                    position: relative;
+                    height: 200px;
+                    width: 100%;
+                    border-radius: 1rem;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                    }
+
+                    .discount{
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        padding: 5px 10px;
+                        background: hsl(26, 93%, 58%);
+                        color: white;
+                        border-radius: 3rem;
+                        font-size: 10px;
+                        font-weight: 500;
+                    }
+                }
+
+                .offerBody{
+                    padding: 1rem;
+
+                    .price{
+                        justify-content: space-between;
+
+                        h4{
+                            color: black;
+                            font-weight: 700;
+                            font-size: 1.1rem;
+                        }
+
+                        .status{
+                            padding: 5px 10px;
+                            color: white;
+                            background: hsl(26, 93%, 58%);
+                            font-size: 10px;
+                            font-weight: 600;
+                            border-radius: 3rem;
+                        }
+                    }
+
+                    .amenities{
+                        width: 100%;
+                        flex-wrap: wrap;
+                        justify-content: flex-start;
+                        padding: 1rem 0;
+                        gap: .5rem;
+
+                        .sigleAmenity{
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            background: whitesmoke;
+                            gap: .5rem;
+                        }
+                    }
+
+                    .btn{
+                        margin-top: 1rem;
+                        width: 100%;
+                        text-align: center;
+                        justify-content: center;
+                        padding: .6rem;
+                        color: white;
+                        font-weight: 600;
+                        gap: .5rem;
+
+                        .icon{
+                            color: white;
+                        }
+                    }
+                }
+
+                &:hover{
+                    transform: translateY(-7px);
+                }
+            }
+        }
+    }
+}
